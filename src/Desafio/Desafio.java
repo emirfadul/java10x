@@ -20,10 +20,13 @@ public class Desafio {
             }
         }else{
             missao1 = "Concluida";
-
         }
-        System.out.println("Nome: "+naruto1+"   idade: "+idade1+"   missão: "+missao1+"   nivel: "+nivel1+"   status: "+status1);
-
+        System.out.println("Nome: "+naruto1);
+        System.out.println("idade: "+idade1);
+        System.out.println("missão: "+missao1);
+        System.out.println("nivel: "+nivel1);
+        System.out.println("status: "+status1);
+        System.out.println("---------------------------");
 
         //ninja2
         String naruto2 = "Goku";
@@ -31,8 +34,23 @@ public class Desafio {
         String missao2 = "Dar o cu 3 ao dia";
         char nivel2 = 'B';
         boolean status2 = true;
-        System.out.println("Nome: "+naruto2+"   idade: "+idade2+"   missão: "+missao2+"   nivel: "+nivel2+"   status: "+status2);
 
+        if (idade2 < 15){
+            if (nivel2 == 'C' || nivel2 == 'D'){
+                missao2 = "Concluida";
+            } else {
+                missao2 = "Não concluida";
+            }
+        }else{
+            missao2 = "Concluida";
+
+        }
+        System.out.println("Nome: "+naruto2);
+        System.out.println("idade: "+idade2);
+        System.out.println("missão: "+missao2);
+        System.out.println("nivel: "+nivel2);
+        System.out.println("status: "+status2);
+        System.out.println("---------------------------");
 
         //ninja3
         String naruto3 = "Susuke";
@@ -40,7 +58,24 @@ public class Desafio {
         String missao3 = "Chupar rola e engolir";
         char nivel3 = 'A';
         boolean status3 = true;
-        System.out.println("Nome: "+naruto3+"   idade: "+idade3+"   missão: "+missao3+"   nivel: "+nivel3+"   status: "+status3);
+
+        if (idade3 < 18){
+            if (nivel3 == 'C' || nivel3 == 'D'){
+                missao3 = "Concluida";
+            } else {
+                missao3 = "Não concluida";
+            }
+        }else{
+            missao3 = "Concluida";
+
+        }
+        System.out.println("Nome: "+naruto3);
+        System.out.println("idade: "+idade3);
+        System.out.println("missão: "+missao3);
+        System.out.println("nivel: "+nivel3);
+        System.out.println("status: "+status3);
+        System.out.println("---------------------------");
+
 
 
 
