@@ -9,12 +9,11 @@ public class IfElse {
         boolean hokage = false;
         short numeroDeMissoes = 14;
 
-        if (numeroDeMissoes >10){
+        if (numeroDeMissoes > 16){
             System.out.println("Naruto pronto para passar de missão");
-
+        }else{
+            System.out.println("Naruto não está pronto para passar de missão");
         }
-
-
 
     }
 }
