@@ -14,17 +14,19 @@ public class Main {
         Naruto.idade = 13;
         Naruto.aldeia = "Aldeia da folha";      
 
-        System.out.println("---------------------------");
-        System.out.println("Nome: " + Sasuke.nome);
-        System.out.println("Idade: " + Sasuke.idade);
-        System.out.println("Aldeia: " + Sasuke.aldeia);
+        Naruto.SharinganAtivado();
 
-        System.out.println("---------------------------");
+        String r = Naruto.SharinganViado();
+        System.out.println(r);
 
-        System.out.println("Nome: " + Naruto.nome);
-        System.out.println("Idade: " + Naruto.idade);
-        System.out.println("Aldeia: " + Naruto.aldeia);
-        System.out.println("---------------------------");
+        int a = Naruto.SharinganDeMaior(15, 18);
+            
+        if (a > 0){
+            System.out.println("O Ninja é maior de idade!");
+        } else {
+            System.out.println("O Ninja é menor de idade!");
+        }
+
     }
 }
  
