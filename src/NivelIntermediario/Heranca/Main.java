@@ -42,17 +42,17 @@ public class Main {
         // Boruto.AtivarKarma();
         // Boruto.AtivarJogan();
 
-        Uzumaki narutinho = new Uzumaki();
-        narutinho.nome = "Naruto Uzumaki";
-        narutinho.idade = 13;
-        narutinho.aldeia = "Aldeia da folha";     
-        narutinho.habilidadeEspecial();
+        // Uzumaki narutinho = new Uzumaki();
+        // narutinho.nome = "Naruto Uzumaki";
+        // narutinho.idade = 13;
+        // narutinho.aldeia = "Aldeia da folha";     
+        // narutinho.habilidadeEspecial();
 
-        Uchira sakuro = new Uchira();
-        sakuro.nome = "Sakuro Uzumaki";
-        sakuro.idade = 21;
-        sakuro.aldeia = "Cornos S/A";
-        sakuro.habilidadeEspecial();
+        // Uchira sakuro = new Uchira();
+        // sakuro.nome = "Sakuro Uzumaki";
+        // sakuro.idade = 21;
+        // sakuro.aldeia = "Cornos S/A";
+        // sakuro.habilidadeEspecial();
 
         // Naruto.SharinganAtivado();
 
@@ -66,6 +66,20 @@ public class Main {
         // } else {
         //     System.out.println("O Ninja é menor de idade!");
         // }
+
+        Hokage Hashirama = new Hokage("Hashirama", 30, true);
+        System.out.println(Hashirama.nome); 
+
+        Hokage Hashirama2 = new Hokage("Hashirama Goku", 30, true);
+        System.out.println(Hashirama2.nome);
+
+        Hokage Hashirama3 = new Hokage("Hashirama Fadul", 30, true);
+        System.out.println(Hashirama3.nome);
+
+        Hokage Nirama = new Hokage("Nirama max", 0, false);
+        System.out.println(Nirama.nome);
+        System.out.println(Nirama.idade);
+        System.out.println(Nirama.vivoOuNao);
 
     }
 }
