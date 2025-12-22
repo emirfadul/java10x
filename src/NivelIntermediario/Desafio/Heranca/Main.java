@@ -1,5 +1,7 @@
 package NivelIntermediario.Desafio.Heranca;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,13 +13,8 @@ public class Main {
         System.out.println("2 - Adicionar Ninjas");
         System.out.println("3 - Atualizar habilidades");
         System.out.println("4 - Sair");
+        int opcao = scanner.nextInt();
 
-
-        String opcao = scanner.nextLine();
-
-        System.out.println("Qual é a sua idade?");
-        int idade = scanner.nextInt();
-        
         Uchiha Naruto = new Uchiha();
         Naruto.nome = "Naruto Uzumaki";
         Naruto.idade = 13;
@@ -26,8 +23,40 @@ public class Main {
         Naruto.statusMissao = "Em andamento";
         Naruto.habilidadeEspecial = "Sharingan";
 
-        Naruto.mostraInforcaoes();
-        Naruto.mostraHabilidadeEspecial();
+        switch (opcao) {
+            case 1:
+                Naruto.mostraInforcaoes();                
+                break;
+            case 2:
+                Uchiha Emir = new Uchiha();
+                Emir.nome = "Emir Fadul";
+                Emir.idade = 20;
+                Emir.missao = "Encontrar o lendário Hokage";
+                Emir.nivelDificuldade = "Médio";
+                Emir.statusMissao = "Em andamento";
+                Emir.habilidadeEspecial = "Sharingan";
+                Emir.mostraInforcaoes();
+                break;
+            case 3:
+                System.out.println("Atualizar habilidades");
+                break;
+            case 4:
+                System.out.println("Sair");
+                break;
+        
+            default:
+                break;
+        }
+
+       
+       
+
+       
+        
+        
+
+        // Naruto.mostraInforcaoes();
+        // Naruto.mostraHabilidadeEspecial();
     }
 
 }

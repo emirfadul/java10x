@@ -6,7 +6,7 @@ public class Ninja {
     int idade = 0;
     String aldeia = "";
 
-    // VOID
+    //void
     // public void SharinganAtivado(){
     //     System.out.println("Meu nome é " + nome + " e Sharingan está Ativado e eu sou um "+aldeia);
     // }
@@ -19,5 +19,10 @@ public class Ninja {
     // public int SharinganDeMaior(int idadeMinima, int idade){
     //     return idade - idadeMinima;
     // }
+
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome é " + nome +
+         " e esse é meu ataque de fogo");
+    }
 
 }

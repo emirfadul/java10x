@@ -9,8 +9,9 @@ public class NInja {
     String statusMissao = "";
     
     public void mostraInforcaoes(){
-        System.out.println("Nome: " + nome + "\nIdade: " + 
-        idade + "\nMissão: " + missao +
+        System.out.println("Nome: " + nome +
+         "\nIdade: " + idade +
+         "\nMissão: " + missao +
          "\nNível de Dificuldade: " + nivelDificuldade +
           "\nStatus da Missão: " + statusMissao);
     }
