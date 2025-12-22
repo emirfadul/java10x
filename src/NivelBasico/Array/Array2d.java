@@ -1,4 +1,4 @@
-package Array;
+package NivelBasico.Array;
 
 
 public class Array2d {

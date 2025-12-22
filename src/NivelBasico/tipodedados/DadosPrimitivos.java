@@ -1,4 +1,4 @@
-package tipodedados;
+package NivelBasico.tipodedados;
 
 public class DadosPrimitivos {
 

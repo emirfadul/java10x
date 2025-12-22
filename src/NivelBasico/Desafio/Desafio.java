@@ -1,4 +1,4 @@
-package Desafio;
+package NivelBasico.Desafio;
 
 public class Desafio {
 
