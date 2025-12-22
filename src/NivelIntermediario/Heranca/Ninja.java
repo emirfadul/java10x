@@ -1,6 +1,6 @@
 package NivelIntermediario.Heranca;
 
-public class Ninja {
+public abstract class Ninja implements EstrategiaBatalha {
 
     String nome = "";
     int idade = 0;
@@ -24,5 +24,24 @@ public class Ninja {
         System.out.println("Meu nome é " + nome +
          " e esse é meu ataque de fogo");
     }
+
+    @Override
+    public  void estrategiaBatalhaNinja(){
+        System.out.println("Meu nome é " + nome +
+         " e minha estratégia de batalha é atacar primeiro");
+    }
+
+    public Ninja(String nome, int idade, String aldeia) {
+        this.nome = nome;
+        this.idade = idade;
+        this.aldeia = aldeia;
+    }
+
+    public Ninja() {
+    }   
+
+    
+
+
 
 }

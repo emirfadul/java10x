@@ -67,20 +67,24 @@ public class Main {
         //     System.out.println("O Ninja é menor de idade!");
         // }
 
-        Hokage Hashirama = new Hokage("Hashirama", 30, true);
-        System.out.println(Hashirama.nome); 
+        // 
 
-        Hokage Hashirama2 = new Hokage("Hashirama Goku", 30, true);
-        System.out.println(Hashirama2.nome);
+            
+        Uzumaki naruto = new Uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.habilidadeEspecial();
+        naruto.estrategiaBatalhaNinja();
 
-        Hokage Hashirama3 = new Hokage("Hashirama Fadul", 30, true);
-        System.out.println(Hashirama3.nome);
+        Uchira sasuke = new Uchira();
+        sasuke.nome = "Sasuke Uchiha";
+        sasuke.habilidadeEspecial();
+        naruto.estrategiaBatalhaNinja();
 
-        Hokage Nirama = new Hokage("Nirama max", 0, false);
-        System.out.println(Nirama.nome);
-        System.out.println(Nirama.idade);
-        System.out.println(Nirama.vivoOuNao);
+        Uchira itachi = new Uchira("Itachi Uchiha", 22, "Aldeia da folha");
+
 
     }
+
+   
 }
  
