@@ -78,9 +78,15 @@ public class Main {
         Uchira sasuke = new Uchira();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.habilidadeEspecial();
-        naruto.estrategiaBatalhaNinja();
-
-        Uchira itachi = new Uchira("Itachi Uchiha", 22, "Aldeia da folha");
+        naruto.estrategiaBatalhaNinja();      
+        
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi Hatake";
+        kakashi.aldeia = "Aldeia da folha";
+        kakashi.idade = 25;
+        kakashi.SharinganAtivado();
+        kakashi.NinjaDeElite();
+        
 
 
     }
