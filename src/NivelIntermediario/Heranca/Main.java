@@ -86,6 +86,25 @@ public class Main {
         kakashi.idade = 25;
         kakashi.SharinganAtivado();
         kakashi.NinjaDeElite();
+
+
+        Hokage hirizen = new Hokage();
+        hirizen.nome = "Hokage";
+        hirizen.idade = 20;
+        hirizen.vivoOuNao = true;
+        System.out.println(hirizen.nome);
+        System.out.println(hirizen.idade);
+        System.out.println(hirizen.vivoOuNao);
+
+        Hokage emir = new Hokage();
+        emir.nome = "Emir Fadul";
+        emir.idade = 25;
+        emir.vivoOuNao = true;
+        System.out.println(emir.nome);
+        System.out.println(emir.idade);
+        System.out.println(emir.vivoOuNao);
+
+        
         
 
 
