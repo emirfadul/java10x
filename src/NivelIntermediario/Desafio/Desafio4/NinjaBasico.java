@@ -11,4 +11,7 @@ public class NinjaBasico implements Ninja{
         System.out.println("Executando habilidades básicas");
     }
 
+    public String toString(){
+        return "### Esse é o metodo toString ###";
+    }
 }

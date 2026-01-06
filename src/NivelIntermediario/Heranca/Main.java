@@ -70,39 +70,49 @@ public class Main {
         // 
 
             
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.habilidadeEspecial();
-        naruto.estrategiaBatalhaNinja();
+        // Uzumaki naruto = new Uzumaki();
+        // naruto.nome = "Naruto Uzumaki";
+        // naruto.habilidadeEspecial();
+        // naruto.estrategiaBatalhaNinja();
 
-        Uchira sasuke = new Uchira();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.habilidadeEspecial();
-        naruto.estrategiaBatalhaNinja();      
+        // Uchira sasuke = new Uchira();
+        // sasuke.nome = "Sasuke Uchiha";
+        // sasuke.habilidadeEspecial();
+        // naruto.estrategiaBatalhaNinja();      
         
-        Hatake kakashi = new Hatake();
-        kakashi.nome = "Kakashi Hatake";
-        kakashi.aldeia = "Aldeia da folha";
-        kakashi.idade = 25;
-        kakashi.SharinganAtivado();
-        kakashi.NinjaDeElite();
+        // Hatake kakashi = new Hatake();
+        // kakashi.nome = "Kakashi Hatake";
+        // kakashi.aldeia = "Aldeia da folha";
+        // kakashi.idade = 25;
+        // kakashi.SharinganAtivado();
+        // kakashi.NinjaDeElite();
 
 
-        Hokage hirizen = new Hokage();
-        hirizen.nome = "Hokage";
-        hirizen.idade = 20;
-        hirizen.vivoOuNao = true;
-        System.out.println(hirizen.nome);
-        System.out.println(hirizen.idade);
-        System.out.println(hirizen.vivoOuNao);
+        // Hokage hirizen = new Hokage();
+        // hirizen.nome = "Hokage";
+        // hirizen.idade = 20;
+        // hirizen.vivoOuNao = true;
+        // System.out.println(hirizen.nome);
+        // System.out.println(hirizen.idade);
+        // System.out.println(hirizen.vivoOuNao);
 
-        Hokage emir = new Hokage();
-        emir.nome = "Emir Fadul";
-        emir.idade = 25;
-        emir.vivoOuNao = true;
-        System.out.println(emir.nome);
-        System.out.println(emir.idade);
-        System.out.println(emir.vivoOuNao);
+        // Hokage emir = new Hokage();
+        // emir.nome = "Emir Fadul";
+        // emir.idade = 25;
+        // emir.vivoOuNao = true;
+        // System.out.println(emir.nome);
+        // System.out.println(emir.idade);
+        // System.out.println(emir.vivoOuNao);
+
+        // Senju tsunade = new Senju();
+        // tsunade.nome = "Tsunade Senju";
+        // tsunade.idade = 50;
+        // tsunade.vivoOuNao = true;
+        // System.out.println(tsunade.nome);
+        // System.out.println(tsunade.idade);
+        // System.out.println(tsunade.vivoOuNao);
+
+         
 
         
         

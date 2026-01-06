@@ -7,4 +7,7 @@ public interface Ninja {
     public void executarHabilidades();
 
 
+    NinjaAvancado emir = new NinjaAvancado(null, 0, null, null);
+
+
 }

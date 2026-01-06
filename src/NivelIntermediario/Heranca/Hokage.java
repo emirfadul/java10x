@@ -1,13 +1,19 @@
 package NivelIntermediario.Heranca;
 
-public class Hokage {
+public abstract class Hokage {
 
     String nome;
     int idade;
     boolean vivoOuNao;
+    String aldeia;
+    int missoes;
+    double saldoBancario;
+    double altura;
 
     public Hokage() {
     }
+
+    public abstract void sabedoriaHokage();
 
     public Hokage(String nome, int idade, boolean vivoOuNao) {
         this.nome = nome;
@@ -15,38 +21,7 @@ public class Hokage {
         this.vivoOuNao = vivoOuNao;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
-    public boolean isVivoOuNao() {
-        return vivoOuNao;
-    }
-
-    public void setVivoOuNao(boolean vivoOuNao) {
-        this.vivoOuNao = vivoOuNao;
-    }
-
-    
-
-    
-
-    
- 
-
-    
+   
 
     
 }
